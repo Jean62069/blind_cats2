@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        textView = (TextView) findViewById(R.id.textView);
-        jett = (Button) findViewById(R.id.jett);
-        merry= (Button) findViewById(R.id.merry);
-        care= (Button) findViewById(R.id.care);
-        faq= (Button) findViewById(R.id.faq);
+        textView = findViewById(R.id.textView);
+        jett = findViewById(R.id.jett);
+        merry= findViewById(R.id.merry);
+        care= findViewById(R.id.care);
+        faq= findViewById(R.id.faq);
 
         jett.setOnClickListener(this);
         merry.setOnClickListener(this);
