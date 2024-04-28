@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutJett">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="@string/about_jett"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnMerry"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954" />
+
+        <Button
+            android:id="@+id/btnMerry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/merry"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnCare" />
+
+
+        <Button
+            android:id="@+id/btnCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/care"
+            app:layout_constraintEnd_toStartOf="@+id/btnFAQ"
+            tools:layout_editor_absoluteY="683dp" />
+
+        <Button
+            android:id="@+id/btnFAQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faq"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="456dp"
+        android:text="@string/aboutJett1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="396dp"
+        android:text="@string/aboutJett2"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="268dp"
+        android:text="@string/aboutJett3"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutJett4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutJett5"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutJett6"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.963" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

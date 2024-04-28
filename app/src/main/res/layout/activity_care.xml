@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Care">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:text="@string/special_care"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/btnHomeCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnMerry"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954" />
+
+        <Button
+            android:id="@+id/btnJettCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jett"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnCare" />
+
+        <Button
+            android:id="@+id/btnMerryCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/merry"
+            app:layout_constraintEnd_toStartOf="@+id/btnFAQ"
+            tools:layout_editor_absoluteY="683dp" />
+
+        <Button
+            android:id="@+id/btnFAQCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faq"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="310dp"
+        android:layout_height="462dp"
+        android:text="@string/obstacles"
+        android:textSize="20sp"
+        android:lineHeight="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

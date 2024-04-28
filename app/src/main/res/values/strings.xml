@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">blind_cats</string>
+    <string name="blind_cats">BLIND CATS</string>
+    <string name="are_awesome">ARE AWESOME</string>
+    <string name="jett">Jett</string>
+    <string name="merry">Merry</string>
+    <string name="special_care">Special Care Requirements</string>
+    <string name="faq">FAQ</string>
+    <string name="meet_merry">Meet Merry</string>
+    <string name="meet_jett">Meet Jett</string>
+    <string name="home">Home</string>
+    <string name="care">Care</string>
+    <string name="question1">How will the blind cat find the litter box?</string>
+    <string name="answer1">That has never been a problem, the cats rely on scent and memory to find the litter box. I have had to move it several times over the years and Jett has never had a problem finding it after I showed him one time where it was.</string>
+    <string name="question2">How can a blind cat find food and water?</string>
+    <string name="answer2">That has also never been an issue. It is recommended that a water fountain is used, hearing the water will remind the cat to drink. Jett and Merry have also figured out how to get treats out of puzzle towers.</string>
+    <string name="obstacles">     When Jett and Merry were first brought to the vet, she told us not to rearrange the furniture too much, they would be stressed out over the new obstacles in their path. We have found that the furniture is not an issue. A much bigger issue are the everyday obstacles, shoes and clothes on the floor, grocery bags, mail, purses put on the floor and counter. It\'s the little things that need to be monitered and put away immediately</string>
+    <string name="about_jett">About Jett</string>
+    <string name="gallery">Gallery of Photos</string>
+    <string name="about_merry">About Merry</string>
+    <string name="aboutJett1">Jett was rescued with 17 other kittens in an abandoned trailer.</string>
+    <string name="aboutJett2">He was adopted with his brother, Shadow, as a bonded pair.</string>
+    <string name="aboutJett3">He is very cautious, when changing levels he needs to be able to reach down and touch the next surface. He doesn\'t just blindly jump off a surface unless he has too.</string>
+    <string name="aboutJett4">Jett loves going for walks in the stroller. Care needs to be taken becasue he is startled by loud noises, like lawnmowers.</string>
+    <string name="aboutJett5">Jett doesn\'t care for wet cat food, he prefers dry cat food but moist treats.</string>
+    <string name="aboutJett6">His eyes have not been sown shut, he uses them when making facial expressions.</string>
+
+</resources>

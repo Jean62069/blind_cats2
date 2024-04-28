@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blind_cats"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="@string/are_awesome"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/jett"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="@string/jett"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/merry"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="@string/merry"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/care"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="@string/special_care"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/faq"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="@string/faq"
+        android:textSize="45sp"
+        />
+
+
+</LinearLayout>
