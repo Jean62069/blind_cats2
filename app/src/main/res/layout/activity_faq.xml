@@ -62,7 +62,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.954" />
+            app:layout_constraintVertical_bias="0.954"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnJettF"
@@ -70,7 +71,8 @@
             android:layout_height="wrap_content"
             android:text="@string/jett"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btnCare" />
+            app:layout_constraintEnd_toStartOf="@+id/btnCare"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnMerryF"
@@ -78,7 +80,8 @@
             android:layout_height="wrap_content"
             android:text="@string/merry"
             app:layout_constraintEnd_toStartOf="@+id/btnFAQ"
-            tools:layout_editor_absoluteY="683dp" />
+            tools:layout_editor_absoluteY="683dp"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnCareF"
@@ -86,7 +89,8 @@
             android:layout_height="wrap_content"
             android:text="@string/care"
             tools:layout_editor_absoluteX="307dp"
-            tools:layout_editor_absoluteY="652dp" />
+            tools:layout_editor_absoluteY="652dp"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>

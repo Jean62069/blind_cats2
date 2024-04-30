@@ -45,7 +45,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.954" />
+            app:layout_constraintVertical_bias="0.954"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnMerry"
@@ -53,7 +54,8 @@
             android:layout_height="wrap_content"
             android:text="@string/merry"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btnCare" />
+            app:layout_constraintEnd_toStartOf="@+id/btnCare"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
         <Button
@@ -62,7 +64,8 @@
             android:layout_height="wrap_content"
             android:text="@string/care"
             app:layout_constraintEnd_toStartOf="@+id/btnFAQ"
-            tools:layout_editor_absoluteY="683dp" />
+            tools:layout_editor_absoluteY="683dp"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btnFAQ"
@@ -70,7 +73,8 @@
             android:layout_height="wrap_content"
             android:text="@string/faq"
             tools:layout_editor_absoluteX="307dp"
-            tools:layout_editor_absoluteY="652dp" />
+            tools:layout_editor_absoluteY="652dp"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>
@@ -86,7 +90,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/relaxed_jett" />
+        app:srcCompat="@drawable/relaxed_jett"
+        android:contentDescription="@string/armsInAir" />
 
     <Button
         android:id="@+id/aboutJett"
@@ -104,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="76dp"
-        android:text="Gallery of Photos"
+        android:text="@string/gallery_of_photos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.615"
