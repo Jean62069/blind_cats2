@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (id == R.id.merry) {
             Intent intent6 = new Intent(MainActivity.this, Merry.class);
             startActivity(intent6);
+            Toast.makeText(this, "I am a long haired tuxedo cat!", Toast.LENGTH_LONG).show();
         }
         else if (id == R.id.care) {
             Intent intent7 = new Intent(MainActivity.this, Care.class);

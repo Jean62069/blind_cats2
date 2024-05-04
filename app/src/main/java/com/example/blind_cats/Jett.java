@@ -71,8 +71,10 @@ public class Jett extends AppCompatActivity {
         galleryJett.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(Jett.this, "Scroll down to see more photos!", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Jett.this, JettGallery.class);
                 startActivity(intent);
+
             }
         });
     }

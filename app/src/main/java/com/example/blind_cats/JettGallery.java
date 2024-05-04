@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class JettGallery extends AppCompatActivity {
 
     TextView textView2;
-    Button home, merry, care, faq, aboutJett, galleryJett;
+    Button home, merry, care, faq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

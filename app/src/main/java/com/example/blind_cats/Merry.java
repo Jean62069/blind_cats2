@@ -31,7 +31,6 @@ public class Merry extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Merry.this, "I am a black cat!", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Merry.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -72,6 +71,7 @@ public class Merry extends AppCompatActivity {
         galleryMerry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(Merry.this, "Scroll Down to see more photos!!", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Merry.this, MerryGallery.class);
                 startActivity(intent);
             }
